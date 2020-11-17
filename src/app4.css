@@ -1,0 +1,21 @@
+@keyframes colorChange {
+  0% {
+    background: blue;
+  }
+  100% {
+    background: red;
+  }
+}
+#app4 {
+}
+#app4 .circle {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+#app4 .circle.active{
+    animation: colorChange 1s linear infinite alternate;
+}
